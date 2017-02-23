@@ -10,7 +10,12 @@
       <%= f.label :password %>
       <%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.submit "Log in", class: 'btn btn-primary' %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+      <%= f.check_box :remember_me %>
+      <span>I'm lazy and don't like passwords. Remember me!</span>
+         <% end %>
+
+      <%= f.submit "Log in", class: "btn btn-primary" %>
      <% end %>
 
      <p>New 'round these parts? <%= link_to "Join us. JOIN US.", signup_path %></p>

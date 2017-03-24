@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Based mostly on Hardl's Rails tutorial, created working along with the book itself. Hence the wonky CSS.
+I made an oopsie somewhere around there.
 
-Things you may want to cover:
+Anyway, this returns my repositories and posts it as a "micropost" to an instance of the app through a rake task. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run, start a local server with 'rails server', and run rake github:repo_post. That's all it does.
